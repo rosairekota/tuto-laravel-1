@@ -13,6 +13,8 @@ class Faculity extends Model
     protected $fillable = [
         'name',
     ];
+    
+    protected $table ='faculitys';
 
     public function students()
     {
